@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // ✔ Use your MongoDB Connection String
-const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://raje:<password>@cluster0.8mmip.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://raje:8HUfyvlt8a8NKMbZ@cluster0.8mmip.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 let db; // global db
 
