@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const MONGO_API_URL = 'https://data.mongodb-api.com/app/data-koewh/endpoint/data/v1/action/find';
+const MONGO_API_URL = 'https://ap-south-1.aws.data.mongodb-api.com/app/data-koewh/endpoint/data/v1/action/find';
 const MONGO_API_KEY = process.env.MONGO_API_KEY || 'CQk2k1fBnHLvnoZFqALRZPTHzMgUUa9cYivK9VPOdo3tpNlyBKNjSNr6w14UoC7S'; // fallback for dev
 
 const headers = {
